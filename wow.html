@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>wowowow</title>
+  <script>
+    const target = new URLSearchParams(window.location.search).get('target');
+    if (target) {
+      location.href = target;
+    } else {
+      document.body.innerText = 'No target specified.';
+    }
+  </script>
+</head>
+<body>
+  <p>hihihihihihi</p>
+</body>
+</html>
