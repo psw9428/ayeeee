@@ -1,1 +1,1 @@
-location.href = new URLSearchParams(location.search).get('target');``
+location.href = new URLSearchParams(location.search).get('target');
