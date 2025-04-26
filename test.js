@@ -1,1 +1,3 @@
-location.href = new URLSearchParams(location.search).get('target');
+<script>
+  location.href = new URLSearchParams(location.search).get('target');
+</script>
